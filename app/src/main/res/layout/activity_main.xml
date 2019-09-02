@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#b3b300">
+
+
+<ImageView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/untitled"
+    android:layout_marginTop="-20dp"
+    />
+
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cao"/>
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_marginTop="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/gato"
+        />
+
+    <ImageView
+        android:id="@+id/lion"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/dog"
+        android:layout_marginStart="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/leao"
+        />
+
+    <ImageView
+        android:id="@+id/monkey"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/cat"
+        android:layout_marginEnd="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/macaco"
+        />
+
+    <ImageView
+        android:id="@+id/sheep"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/lion"
+        android:layout_marginStart="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ovelhas"
+        />
+
+    <ImageView
+        android:id="@+id/cow"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/monkey"
+        android:layout_marginEnd="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/vaca"
+        />
+
+
+
+
+
+
+</RelativeLayout>
